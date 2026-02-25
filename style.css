@@ -1,0 +1,178 @@
+body {
+  background-color: #1b1b2c;       
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  color: #eaeaea;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;                
+  background-color: #24243e;        
+  padding: 2rem 2.5rem;
+  border-radius: 28px 28px 12px 12px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.7);
+}
+
+.section-heading {
+  color: #f3c969;                   
+  border-left: 6px solid #b9935c;
+  padding-left: 1rem;
+  margin: 2rem 0 1.5rem 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+.movie-title {
+  font-size: 3.5rem;
+  margin: 0.2rem 0 0.2rem;
+  color: #fadf9e;
+  text-shadow: 3px 3px 0 #3a2e28;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #cfc4b0;
+  margin-top: 0;
+}
+
+.release {
+  background-color: #2f2f4a;
+  padding: 0.6rem 1.2rem;
+  display: inline-block;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  border: 1px solid #b9935c;
+}
+
+.poster-img {
+  width: 400px;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border: 6px solid #3b2e24;
+  border-radius: 24px;
+  box-shadow: 0 10px 18px #0e0e1a;
+  background-color: #1e2a3a;        
+}
+
+.cast-list {
+  background-color: #1f1f30;
+  padding: 1.8rem 2.5rem;
+  border-radius: 24px;
+  list-style-type: square;
+  font-size: 1.2rem;
+}
+
+.cast-list li {
+  margin: 0.9rem 0;
+}
+
+.character-name {
+  color: #f3c969;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+#times-table {                      
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background-color: #1e1e32;
+  border: 3px solid #6e5b4b;
+  font-size: 1.1rem;
+}
+
+#times-table th {
+  background-color: #372e26;
+  color: #ffdfa7;
+  padding: 14px 8px;
+  border: 2px solid #b9935c;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#times-table td {
+  padding: 12px 8px;
+  border: 2px solid #5b4a3a;
+  text-align: center;
+}
+
+#main-header {
+  background: linear-gradient(145deg, #1f2535, #131524);
+  padding: 2rem 2rem 1.5rem 2rem;
+  border-radius: 30px 30px 12px 12px;
+  margin-bottom: 2rem;
+  border: 1px solid #4b3c2c;
+  text-align: center;
+}
+
+#about {
+  background-color: #202035;
+  padding: 0.5rem 2rem 2rem 2rem;
+  border-radius: 30px;
+  margin: 2rem 0;
+}
+
+#cast {
+  background-color: #1d1d31;
+  padding: 0.5rem 2rem 2rem 2rem;
+  border-radius: 30px;
+}
+
+#showtimes {
+  background-color: #202035;
+  padding: 0.8rem 2rem 2rem 2rem;
+  border-radius: 30px;
+}
+
+#main-footer {
+  background-color: #0f0f1f;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 20px 20px 8px 8px;
+  text-align: center;
+  border-top: 4px solid #b9935c;
+  color: #bcb8cf;
+}
+
+.cast-list li:hover {
+  background-color: #2f2f4e;
+  padding-left: 1rem;
+  transition: 0.2s ease-in;
+  border-radius: 12px;
+  color: #ffffff;
+  transform: scale(1.0);
+}
+
+#times-table tbody tr:hover {
+  background-color: #30304a;
+  cursor: default;
+}
+
+.social { 
+  margin: 1.5rem 0 1rem;
+  padding: 0.6rem;
+  background-color: #1a1a2e;
+  border-radius: 50px;
+}
+
+.contact, .copyright {
+  margin: 0.7rem 0;
+}
+
+.social {
+  word-spacing: 8px;
+  color: #c5b9a2;
+}
